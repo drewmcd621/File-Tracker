@@ -1,4 +1,4 @@
 <?php
-print  login('mcdermotta@carnegiemuseums.org','');
+var_dump( login('mcdermotta@carnegiemuseums.org','') );
 
  ?>
