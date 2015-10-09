@@ -6,7 +6,7 @@ function login($email, $pass)
 
   $sEmail = sqlSafe($email);
   $query = "SELECT id, password, enc_pass FROM users WHERE email = $email";
-  $res = runQuery($query);
+  $res = readQuery($query);
 
   if($row = $res->fetch_row())
   {
