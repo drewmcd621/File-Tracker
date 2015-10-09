@@ -23,7 +23,7 @@ function login($email, $pass)
     }
     else
     {
-        if($has == $pass)
+        if($hash == $pass)
         {
           updateLogon($id);
           encryptPassword($pass, $id);
