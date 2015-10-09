@@ -1,4 +1,4 @@
 <?php
-  login('mcdermotta@carnegiemuseums.org','')
+print  login('mcdermotta@carnegiemuseums.org','');
 
  ?>
